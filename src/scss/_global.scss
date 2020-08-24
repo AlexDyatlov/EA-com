@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+button:focus,
+input:focus {
+  outline: transparent;
+}
+
+body{
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  @include f500;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #000;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  font-size: 36px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  @include f700;
+}
+.text{
+  font-size: 18px;
+  line-height: 26px;
+  color: #cecece;
+  @include f400;
+}

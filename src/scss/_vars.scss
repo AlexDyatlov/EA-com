@@ -1,0 +1,14 @@
+@mixin f400{
+  font-family: 'TTNorms-Regular', sans-serif;
+  font-weight: 400;
+}
+
+@mixin f500{
+  font-family: 'TTNorms-Medium', sans-serif;
+  font-weight: 500;
+}
+
+@mixin f700{
+  font-family: 'TTNorms-Bold', sans-serif;
+  font-weight: 700;
+}

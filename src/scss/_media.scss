@@ -1,0 +1,36 @@
+@media (max-width: 1170px){
+  .box__inner{
+    max-width: 75%;
+    &:nth-child(odd){
+      margin-right: 0;
+    }
+    &:nth-child(even){
+      margin-left: 0;
+    }
+  }
+}
+@media (max-width: 780px){
+  .box__inner{
+    max-width: 100%;
+  }
+}
+@media (max-width: 580px){
+  .buttons__inner{
+    flex-direction: column;
+  }
+  .buttons-login{
+    margin-bottom: 7px;
+  }
+  .title{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .menu__button {
+    padding: 4px 18px 3px 20px;
+  }
+}
+@media (max-width: 400px){
+  .header__social-link li + li{
+    margin-left: 5px;
+  }
+}
